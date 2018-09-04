@@ -6,7 +6,7 @@ import (
 
 func TestGetName(t *testing.T) {
 	x := GetName()
-	if x != "bcdapps1" {
+	if x != "bcdapps" {
 		t.Error("Expected bcdapps got", x)
 	}
 }
